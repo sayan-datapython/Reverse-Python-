@@ -1,0 +1,9 @@
+num=4321
+rev=0
+rem=0
+l=len(str(num))
+for i in reversed(range(0,l)):
+	rem=num%10
+	rev=rev*10+rem
+	num=num//10
+print(rev)
