@@ -1,0 +1,7 @@
+rev=""
+name=input("Enter your name: ")
+length=len(name)
+
+for index in reversed(range(0,length)):
+    rev=rev+name[index]
+ print(f'reversed name is: {rev}')
